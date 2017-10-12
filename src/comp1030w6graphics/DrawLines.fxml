@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.canvas.Canvas?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ToolBar?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.VBox?>
+
+<AnchorPane id="AnchorPane" prefHeight="340.0" prefWidth="300.0" xmlns="http://javafx.com/javafx/8.0.111" xmlns:fx="http://javafx.com/fxml/1" fx:controller="comp1030w6graphics.DrawLinesController">
+   <children>
+      <VBox prefHeight="350.0" prefWidth="300.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+         <children>
+            <ToolBar prefHeight="40.0" prefWidth="200.0">
+              <items>
+                <Button mnemonicParsing="false" onAction="#button1Pushed" prefWidth="50.0" text="1" />
+                  <Button mnemonicParsing="false" onAction="#button2Pushed" prefWidth="50.0" text="2" />
+                  <Button mnemonicParsing="false" onAction="#button3Pushed" prefWidth="50.0" text="3" />
+              </items>
+            </ToolBar>
+            <Canvas fx:id="canvas" height="300.0" width="300.0" />
+         </children>
+      </VBox>
+   </children>
+</AnchorPane>
